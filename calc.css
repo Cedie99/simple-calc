@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 .calculator {
-    margin: auto;
+    margin: 220px 790px;
     padding: 10px;
     border-radius: 1em;
     height: 380px;
@@ -37,4 +37,14 @@ input:active[type=button] {
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.background-img{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
